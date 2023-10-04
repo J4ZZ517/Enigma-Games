@@ -1,8 +1,17 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    }
-    div{
-       background-size: cover; 
-    }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  background-size: cover;
+}
+
+.card:hover {
+  transform: translateY(-15px);
+  transition: 0.5s;
+  box-shadow: 5px 7px 16px 16px rgba(75,181,67,0.66);
+-webkit-box-shadow: 5px 7px 16px 16px rgba(75,181,67,0.66);
+-moz-box-shadow: 5px 7px 16px 16px rgba(75,181,67,0.66);
+}
